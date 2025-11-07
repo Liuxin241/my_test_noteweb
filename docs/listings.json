@@ -1,0 +1,23 @@
+[
+  {
+    "listing": "/projects/index.html",
+    "items": []
+  },
+  {
+    "listing": "/notes/index.html",
+    "items": []
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/papers/index.html",
+      "/notes/index.html",
+      "/projects/index.html",
+      "/notes/gaussian.html"
+    ]
+  },
+  {
+    "listing": "/papers/index.html",
+    "items": []
+  }
+]

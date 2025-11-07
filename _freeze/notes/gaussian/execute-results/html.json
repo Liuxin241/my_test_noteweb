@@ -1,0 +1,12 @@
+{
+  "hash": "89b26b2361ec437520f9704eed9344d2",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: 高斯积分速记\ndate: 2025-11-07\ncategories: [数学, 概率]\n---\n\n\n内联公式 $e^{-x^2}$，以及块级：\n\n\n$$\n\\int_{-\\infty}^{\\infty} e^{-x^2} \\, dx = \\sqrt{\\pi}\n$$ {#eq-gauss}\n\n\n见公式 @eq-gauss 。\n\n\n下面运行一段 Python 代码并生成图：\n\n::: {#cell-fig-sine .cell execution_count=1}\n\n::: {.cell-output .cell-output-display}\n![正弦曲线](gaussian_files/figure-html/fig-sine-output-1.png){#fig-sine width=590 height=411}\n:::\n:::\n\n\n> 若想把默认的 **MathJax** 改为 **KaTeX**，可在 `_quarto.yml` 的 `format.html` 下加：`html-math-method: katex`。\n\n---\n\n## 4. 图片与表格（可交叉引用）\n### 4.1 插入图片并加标题/标签\n```markdown\n![二维高斯等高线](assets/images/gauss.png){#fig-gauss}\n见图 @fig-gauss 。\n\n#| label: tbl-sample\n#| tbl-cap: \"示例数据表\"\nimport pandas as pd\npd.DataFrame({\"x\": [1,2,3], \"y\": [3,2,1]})\n```\n::: {.callout-tip}\n**要点**：马尔可夫链的稳态存在性取决于……\n:::\n\n",
+    "supporting": [
+      "gaussian_files\\figure-html"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

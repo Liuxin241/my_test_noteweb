@@ -1,1 +1,13 @@
-{\rtf1}
+---
+title: 笔记总览
+listing:
+    contents:
+        - notes
+        - papers
+        - projects
+type: default
+sort: "date desc"
+---
+
+
+欢迎来到我的科研笔记网站。用顶部导航/左侧侧栏快速跳转；右上角可搜索全站。

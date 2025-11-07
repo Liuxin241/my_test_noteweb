@@ -1,1 +1,10 @@
-{\rtf1}
+---
+title: 项目
+listing:
+    contents: projects
+    type: default
+    sort: "date desc"
+---
+
+
+这里列出 `notes/` 下的所有笔记（按日期倒序）。

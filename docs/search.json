@@ -1,0 +1,63 @@
+[
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "项目",
+    "section": "",
+    "text": "这里列出 notes/ 下的所有笔记（按日期倒序）。\n\n\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "笔记",
+      "项目",
+      "项目"
+    ]
+  },
+  {
+    "objectID": "notes/index.html",
+    "href": "notes/index.html",
+    "title": "笔记",
+    "section": "",
+    "text": "这里列出 notes/ 下的所有笔记（按日期倒序）。\n\n\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "笔记",
+      "笔记"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "笔记总览",
+    "section": "",
+    "text": "欢迎来到我的科研笔记网站。用顶部导航/左侧侧栏快速跳转；右上角可搜索全站。\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n文献\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n笔记\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n项目\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n高斯积分速记\n\n\n\n\n\n\n\n\nNov 7, 2025\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "笔记",
+      "快速入口",
+      "笔记总览"
+    ]
+  },
+  {
+    "objectID": "notes/gaussian.html",
+    "href": "notes/gaussian.html",
+    "title": "高斯积分速记",
+    "section": "",
+    "text": "内联公式 \\(e^{-x^2}\\)，以及块级：\n\\[\n\\int_{-\\infty}^{\\infty} e^{-x^2} \\, dx = \\sqrt{\\pi}\n\\tag{1}\\]\n见公式 Equation 1 。\n下面运行一段 Python 代码并生成图：\nFigure 1: 正弦曲线"
+  },
+  {
+    "objectID": "notes/gaussian.html#图片与表格可交叉引用",
+    "href": "notes/gaussian.html#图片与表格可交叉引用",
+    "title": "高斯积分速记",
+    "section": "4. 图片与表格（可交叉引用）",
+    "text": "4. 图片与表格（可交叉引用）\n\n4.1 插入图片并加标题/标签\n![二维高斯等高线](assets/images/gauss.png){#fig-gauss}\n见图 @fig-gauss 。\n\n#| label: tbl-sample\n#| tbl-cap: \"示例数据表\"\nimport pandas as pd\npd.DataFrame({\"x\": [1,2,3], \"y\": [3,2,1]})\n\n\n\n\n\n\nTip\n\n\n\n要点：马尔可夫链的稳态存在性取决于……"
+  },
+  {
+    "objectID": "papers/index.html",
+    "href": "papers/index.html",
+    "title": "文献",
+    "section": "",
+    "text": "这里列出 paper/ 下的所有笔记（按日期倒序）。\n\n\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "笔记",
+      "文献",
+      "文献"
+    ]
+  }
+]

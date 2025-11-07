@@ -1,1 +1,64 @@
-{\rtf1}
+project:
+  type: website
+  output-dir: docs # 与 GitHub Pages 的 /docs 方案配套
+  render:
+    - index.qmd
+    - notes/**/*.qmd
+    - papers/**/*.qmd
+    - projects/**/*.qmd
+
+
+website:
+  title: 我的科研笔记
+  repo-url: https://github.com/<你的 GitHub 用户名>/<仓库名>
+  repo-actions: [edit, issue]
+  page-navigation: true # 上/下一页导航
+  navbar:
+    search: true # 顶部搜索框
+    left:
+      - text: 笔记
+        href: notes/index.qmd
+      - text: 文献
+        href: papers/index.qmd
+      - text: 项目
+        href: projects/index.qmd
+  sidebar:
+    style: "docked" # 左侧固定侧栏（可选）
+    search: true
+    contents:
+      - section: "快速入口"
+        contents:
+          - index.qmd
+      - section: "笔记"
+        contents:
+          - notes/index.qmd
+          - notes/**
+      - section: "文献"
+        contents:
+          - papers/index.qmd
+          - papers/**
+      - section: "项目"
+        contents:
+          - projects/index.qmd
+          - projects/**
+
+
+format:
+  html:
+    theme:
+      - cosmo # 主题（Bootswatch），可换 flatly/lumen 等
+      - styles.scss # 你的自定义样式（可选）
+    toc: true
+    toc-depth: 3
+    code-copy: true # 代码“复制”按钮
+    smooth-scroll: true
+
+
+execute:
+  freeze: auto # 只在源码变化时重跑代码，提速
+  echo: true # 默认显示源码（可在文内覆盖）
+  warning: false
+
+
+bibliography: refs/references.bib # 全站默认文献库
+# csl: refs/nature.csl # 可选：指定样式{\rtf1}

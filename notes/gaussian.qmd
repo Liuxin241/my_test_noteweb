@@ -1,0 +1,51 @@
+---
+title: 高斯积分速记
+date: 2025-11-07
+categories: [数学, 概率]
+---
+
+
+内联公式 $e^{-x^2}$，以及块级：
+
+
+$$
+\int_{-\infty}^{\infty} e^{-x^2} \, dx = \sqrt{\pi}
+$$ {#eq-gauss}
+
+
+见公式 @eq-gauss 。
+
+
+下面运行一段 Python 代码并生成图：
+
+
+```{python}
+#| label: fig-sine
+#| fig-cap: "正弦曲线"
+#| echo: false
+import numpy as np, matplotlib.pyplot as plt
+x = np.linspace(0, 2*np.pi, 200)
+plt.plot(x, np.sin(x))
+plt.show()
+```
+
+> 若想把默认的 **MathJax** 改为 **KaTeX**，可在 `_quarto.yml` 的 `format.html` 下加：`html-math-method: katex`。
+
+---
+
+## 4. 图片与表格（可交叉引用）
+### 4.1 插入图片并加标题/标签
+```markdown
+![二维高斯等高线](assets/images/gauss.png){#fig-gauss}
+见图 @fig-gauss 。
+
+#| label: tbl-sample
+#| tbl-cap: "示例数据表"
+import pandas as pd
+pd.DataFrame({"x": [1,2,3], "y": [3,2,1]})
+```
+::: {.callout-tip}
+**要点**：马尔可夫链的稳态存在性取决于……
+:::
+
+
